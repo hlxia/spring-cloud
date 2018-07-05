@@ -1,0 +1,9 @@
+com\it\xiapsc\base\repository\ReadOnlyRepository.class
+com\it\xiapsc\base\entity\Entity.class
+com\it\xiapsc\base\service\BaseService.class
+com\it\xiapsc\base\entity\BaseEntity.class
+BaseApplication.class
+com\it\xiapsc\base\repository\Repository.class
+com\it\xiapsc\base\repository\WriteOnlyRepository.class
+com\it\xiapsc\base\service\WriteOnlyService.class
+com\it\xiapsc\base\service\ReadOnlyService.class

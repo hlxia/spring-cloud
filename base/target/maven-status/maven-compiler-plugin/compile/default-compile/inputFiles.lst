@@ -1,0 +1,9 @@
+D:\code\spring-cloud-microservices\base\src\main\java\com\it\xiapsc\base\service\WriteOnlyService.java
+D:\code\spring-cloud-microservices\base\src\main\java\com\it\xiapsc\base\entity\Entity.java
+D:\code\spring-cloud-microservices\base\src\main\java\BaseApplication.java
+D:\code\spring-cloud-microservices\base\src\main\java\com\it\xiapsc\base\service\BaseService.java
+D:\code\spring-cloud-microservices\base\src\main\java\com\it\xiapsc\base\entity\BaseEntity.java
+D:\code\spring-cloud-microservices\base\src\main\java\com\it\xiapsc\base\repository\ReadOnlyRepository.java
+D:\code\spring-cloud-microservices\base\src\main\java\com\it\xiapsc\base\repository\WriteOnlyRepository.java
+D:\code\spring-cloud-microservices\base\src\main\java\com\it\xiapsc\base\repository\Repository.java
+D:\code\spring-cloud-microservices\base\src\main\java\com\it\xiapsc\base\service\ReadOnlyService.java

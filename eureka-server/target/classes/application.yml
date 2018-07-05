@@ -1,0 +1,30 @@
+---
+server:
+  port: 8071
+
+spring:
+  profiles: discovery-eureka-1
+  application:
+    name: discovery
+
+eureka:
+  instance:
+    hostname: discovery-eureka-1
+  client:
+    serviceUrl:
+      defaultZoon: http://discovery-eureka-2:8072/
+---
+server:
+  port: 8072
+
+spring:
+  profiles: discovery-eureka-2
+  application:
+    name: discovery
+
+eureka:
+  instance:
+    hostname: discovery-eureka-2
+  client:
+    serviceUrl:
+      defaultZoon: http://discovery-eureka-1:8071/
