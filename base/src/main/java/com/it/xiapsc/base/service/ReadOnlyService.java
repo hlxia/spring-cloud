@@ -3,7 +3,7 @@ package com.it.xiapsc.base.service;
 import java.util.Collection;
 
 /**
- * <code>ReadOnlyService</code> is the base class for all repository classes
+ * <code>ReadOnlyService</code> is the base class for all service classes
  * Read-only operation interface classes(Select)
  *
  * @author hlxia
@@ -13,12 +13,28 @@ import java.util.Collection;
 public interface ReadOnlyService<Entity, T> {
 
     /**
+     * Gets entity list by entity
+     *
+     * @param e entity object
+     * @return  entity list
+     */
+    Collection<Entity> get(Entity e);
+
+    /**
      * Gets single entity by id
      *
      * @param id T entity id
      * @return entity
      */
-    Entity get(T id);
+    Entity getById(T id);
+
+    /**
+     * Gets single entity by name
+     *
+     * @param id T entity name
+     * @return entity
+     */
+    Entity getByName(T name);
 
     /**
      * Gets all entity
@@ -27,11 +43,4 @@ public interface ReadOnlyService<Entity, T> {
      */
     Collection<Entity> getAll();
 
-    /**
-     * Checking the entity exists
-     *
-     * @param id T entity id
-     * @return exists return true, otherwise return false
-     */
-    boolean contains(T id);
 }

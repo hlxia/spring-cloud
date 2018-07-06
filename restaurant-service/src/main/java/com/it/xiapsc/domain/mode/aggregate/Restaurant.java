@@ -1,4 +1,4 @@
-package com.it.xiapsc.domain.mode;
+package com.it.xiapsc.domain.mode.aggregate;
 
 import com.it.xiapsc.base.entity.BaseEntity;
 

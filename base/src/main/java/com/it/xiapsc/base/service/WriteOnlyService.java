@@ -1,7 +1,7 @@
 package com.it.xiapsc.base.service;
 
 /**
- * <code>WriteOnlyService</code> is the base class for all repository classes
+ * <code>WriteOnlyService</code> is the base class for all service classes
  * Write-only operation interface classes(Insert, Update, Delete)
  *
  * @author hlxia
@@ -18,11 +18,11 @@ public interface WriteOnlyService<Entity, T> {
     void add(Entity e);
 
     /**
-     * Update entity (Basic method)
+     * Change entity (Basic method)
      *
      * @param e single entity object
      */
-    void update(Entity e);
+    void change(Entity e);
 
     /**
      * Remove entity by entity id(Basic method)

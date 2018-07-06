@@ -1,7 +1,7 @@
 package com.it.xiapsc.base.entity;
 
 /**
- *  A abstract base classes for all classes.
+ *  An abstract base classes for all entity classes.
  *
  * @author hlxia
  * @version 1.0

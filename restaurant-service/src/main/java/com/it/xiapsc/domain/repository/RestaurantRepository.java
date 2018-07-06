@@ -1,6 +1,5 @@
 package com.it.xiapsc.domain.repository;
 
-import com.it.xiapsc.base.entity.Entity;
 import com.it.xiapsc.base.repository.Repository;
 
 /**
@@ -13,11 +12,4 @@ import com.it.xiapsc.base.repository.Repository;
  */
 public interface RestaurantRepository<Restaurant,String> extends Repository<Restaurant,String> {
 
-    /**
-     * Gets <code>Restaurant</code> entity by name
-     *
-     * @param name restaurant name
-     * @return Restaurant
-     */
-     Entity findByName(String name);
 }

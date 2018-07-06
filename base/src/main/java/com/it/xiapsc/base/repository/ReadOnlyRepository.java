@@ -13,25 +13,33 @@ import java.util.Collection;
 public interface ReadOnlyRepository<Entity, T> {
 
     /**
+     * Gets entity list by entity
+     *
+     * @param e entity object
+     * @return  entity list
+     */
+    Collection<Entity> find(Entity e);
+
+    /**
      * Gets single entity by id
      *
      * @param id T entity id
      * @return entity
      */
-    Entity get(T id);
+    Entity findById(T id);
+
+    /**
+     * Gets single entity by name
+     *
+     * @param id T entity name
+     * @return entity
+     */
+    Entity findByName(T name);
 
     /**
      * Gets all entity
      *
      * @return entity list
      */
-    Collection<Entity> getAll();
-
-    /**
-     * Checking the entity exists
-     *
-     * @param id T entity id
-     * @return exists return true, otherwise return false
-     */
-    boolean contains(T id);
+    Collection<Entity> findAll();
 }

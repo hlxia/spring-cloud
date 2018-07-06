@@ -1,4 +1,4 @@
-package com.it.xiapsc.base;
+package com.it.xiapsc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

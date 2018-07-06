@@ -11,11 +11,11 @@ package com.it.xiapsc.base.repository;
 public interface WriteOnlyRepository<Entity, T> {
 
     /**
-     * Add entity(Basic method)
+     * Insert entity(Basic method)
      *
      * @param e single entity object
      */
-    void add(Entity e);
+    void insert(Entity e);
 
     /**
      * Update entity (Basic method)
@@ -25,11 +25,11 @@ public interface WriteOnlyRepository<Entity, T> {
     void update(Entity e);
 
     /**
-     * Remove entity by entity id(Basic method)
+     * Delete entity by entity id(Basic method)
      *
      * @param id entity id
      */
-    void remove(T id);
+    void delete(T id);
 
 
 }
