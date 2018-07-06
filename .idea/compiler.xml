@@ -9,6 +9,7 @@
         <module name="base" />
         <module name="eureka-server" />
         <module name="restaurant-service" />
+        <module name="tookit" />
       </profile>
     </annotationProcessing>
   </component>

@@ -1,6 +1,6 @@
 package com.it.xiapsc.base.assembler;
 
-import org.springframework.util.CollectionUtils;
+import org.springframework.util.ObjectUtils;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -38,7 +38,7 @@ public abstract class AbstractDTOAssembler<Entity, DTO> {
    * @since 2018/7/6
    */
   public Collection<DTO> toDTOList(List<Entity> entitys) {
-    if (!CollectionUtils.isEmpty(entitys)) {
+    if (!ObjectUtils.isEmpty(entitys)) {
       final List<DTO> dtoList = new ArrayList<DTO>(entitys.size());
       for (Entity entity : entitys) {
         dtoList.add(this.toDTO(entity));

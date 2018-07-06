@@ -8,17 +8,14 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>com.it.xiapsc.cloud</groupId>
     <artifactId>base</artifactId>
-
     <dependencies>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka</artifactId>
-            <version>RELEASE</version>
+            <groupId>com.it.xiapsc.cloud</groupId>
+            <artifactId>tookit</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
-
 
 </project>
