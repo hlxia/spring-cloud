@@ -10,6 +10,6 @@ import com.it.xiapsc.base.repository.Repository;
  * @see Repository
  * @since  2018-7-5
  */
-public interface RestaurantRepository<Restaurant,String> extends Repository<Restaurant,String> {
+public interface RestaurantRepository extends Repository<Restaurant,String> {
 
 }
